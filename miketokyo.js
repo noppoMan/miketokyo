@@ -30,7 +30,7 @@ app.configure('development', function(){
 });
 
 app.get('/', routes.index);
-require("/Users/yuki/www/miketokyo/node_modules/express-dynamic-router/lib/express-dynamic-router").register(app);
+require("express-dynamic-router").register(app);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));
