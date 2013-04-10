@@ -1,0 +1,16 @@
+{
+  "name": "MikeTOKYO",
+  "version": "0.1.1",
+  "private": true,
+  "scripts": {
+    "start": "node miketokyo"
+  },
+  "dependencies": {
+    "express": "3.1.0",
+    "ejs": "*",
+    "express-ejs-layouts": "*",
+    "log4js" : "*",
+    "argv" : "*",
+	"express-dynamic-router" : "*"
+  }
+}
