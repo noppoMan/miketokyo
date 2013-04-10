@@ -4,10 +4,11 @@ miketokyo
 Miketokyo is a most TAKETOMIC Radio program in the world.
 
 
-<b>module dependencies</b>  
+<b>module dependencies</b>
 * express
 * express-ejs-layouts
 * express-dynamic-router
+* express-action-filter
 * log4js
 * argv
 
