@@ -1,7 +1,7 @@
 exports.news = function(req, res){
-  res.send("respond with a resource");
+  res.render('official/news', {});
 }
 
 exports.cast = function(req, res){
-  res.send("respond with a resource");
+  res.render('official/cast', {});
 }
