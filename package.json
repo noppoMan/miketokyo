@@ -11,6 +11,7 @@
     "express-ejs-layouts": "*",
     "log4js" : "*",
     "argv" : "*",
-	"express-dynamic-router" : "*"
+	"express-dynamic-router" : "*",
+	"node-data-object" : "git+ssh://git@github.com:noppoMan/node-data-object.git"
   }
 }

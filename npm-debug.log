@@ -1,0 +1,79 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/yuki/.nvm/v0.9.1/bin/node',
+1 verbose cli   '/Users/yuki/.nvm/v0.9.1/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@1.1.59
+3 info using node@v0.9.1
+4 verbose read json /Users/yuki/www/miketokyo/package.json
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/Users/yuki/www/miketokyo',
+6 verbose install   [ 'express',
+6 verbose install     'ejs',
+6 verbose install     'express-ejs-layouts',
+6 verbose install     'log4js',
+6 verbose install     'argv',
+6 verbose install     'express-dynamic-router',
+6 verbose install     'node-data-object' ] ]
+7 verbose from cache /Users/yuki/www/miketokyo/package.json
+8 info preinstall MikeTOKYO@0.1.1
+9 verbose read json /Users/yuki/www/miketokyo/node_modules/argv/package.json
+10 verbose read json /Users/yuki/www/miketokyo/node_modules/ejs/package.json
+11 verbose read json /Users/yuki/www/miketokyo/node_modules/express/package.json
+12 verbose read json /Users/yuki/www/miketokyo/node_modules/express-dynamic-router/package.json
+13 verbose read json /Users/yuki/www/miketokyo/node_modules/express-ejs-layouts/package.json
+14 verbose read json /Users/yuki/www/miketokyo/node_modules/log4js/package.json
+15 verbose from cache /Users/yuki/www/miketokyo/package.json
+16 verbose readDependencies using package.json deps
+17 verbose read json /Users/yuki/www/miketokyo/node_modules/.bin/package.json
+18 verbose from cache /Users/yuki/www/miketokyo/node_modules/argv/package.json
+19 verbose from cache /Users/yuki/www/miketokyo/node_modules/ejs/package.json
+20 verbose from cache /Users/yuki/www/miketokyo/node_modules/express/package.json
+21 verbose from cache /Users/yuki/www/miketokyo/node_modules/express-dynamic-router/package.json
+22 verbose from cache /Users/yuki/www/miketokyo/node_modules/express-ejs-layouts/package.json
+23 verbose from cache /Users/yuki/www/miketokyo/node_modules/log4js/package.json
+24 verbose already installed skipping express-ejs-layouts@* /Users/yuki/www/miketokyo
+25 verbose already installed skipping log4js@* /Users/yuki/www/miketokyo
+26 verbose already installed skipping argv@* /Users/yuki/www/miketokyo
+27 verbose already installed skipping express-dynamic-router@* /Users/yuki/www/miketokyo
+28 verbose cache add [ 'node-data-object@git+ssh://git@github.com:noppoMan/node-data-object.git',
+28 verbose cache add   null ]
+29 silly cache add name=undefined spec="node-data-object@git+ssh://git@github.com:noppoMan/node-data-object.git" args=["node-data-object@git+ssh://git@github.com:noppoMan/node-data-object.git",null]
+30 verbose parsed url { pathname: 'node-data-object@git+ssh://git@github.com:noppoMan/node-data-object.git',
+30 verbose parsed url   path: 'node-data-object@git+ssh://git@github.com:noppoMan/node-data-object.git',
+30 verbose parsed url   href: 'node-data-object@git+ssh://git@github.com:noppoMan/node-data-object.git' }
+31 silly cache add name="node-data-object" spec="git+ssh://git@github.com:noppoMan/node-data-object.git" args=["node-data-object","git+ssh://git@github.com:noppoMan/node-data-object.git"]
+32 verbose parsed url { protocol: 'git+ssh:',
+32 verbose parsed url   slashes: true,
+32 verbose parsed url   auth: 'git',
+32 verbose parsed url   host: 'github.com',
+32 verbose parsed url   hostname: 'github.com',
+32 verbose parsed url   href: 'git+ssh://git@github.com/:noppoMan/node-data-object.git',
+32 verbose parsed url   pathname: '/:noppoMan/node-data-object.git',
+32 verbose parsed url   path: '/:noppoMan/node-data-object.git' }
+33 silly lockFile aabef1b2-om-noppoMan-node-data-object-git git+ssh://git@github.com:noppoMan/node-data-object.git
+34 verbose lock git+ssh://git@github.com:noppoMan/node-data-object.git /Users/yuki/.npm/aabef1b2-om-noppoMan-node-data-object-git.lock
+35 verbose already installed skipping express@3.1.0 /Users/yuki/www/miketokyo
+36 verbose already installed skipping ejs@* /Users/yuki/www/miketokyo
+37 verbose addRemoteGit [ 'git@github.com:noppoMan/node-data-object.git', 'master' ]
+38 silly exec git "clone" "git@github.com:noppoMan/node-data-object.git" "/var/folders/nU/nUyu734CFdCz4ZkSG5805E+++TI/-Tmp-/npm-37915/1365611189421-0.5750669490080327"
+39 silly git,clone,git@github.com:noppoMan/node-data-object.git,/var/folders/nU/nUyu734CFdCz4ZkSG5805E+++TI/-Tmp-/npm-37915/1365611189421-0.5750669490080327, spawning
+40 verbose git clone git@github.com:noppoMan/node-data-object.git Cloning into /var/folders/nU/nUyu734CFdCz4ZkSG5805E+++TI/-Tmp-/npm-37915/1365611189421-0.5750669490080327...
+41 silly exec git "checkout" "master"
+42 silly git,checkout,master,/var/folders/nU/nUyu734CFdCz4ZkSG5805E+++TI/-Tmp-/npm-37915/1365611189421-0.5750669490080327 spawning
+43 verbose git checkout master Already on 'master'
+44 verbose read json /var/folders/nU/nUyu734CFdCz4ZkSG5805E+++TI/-Tmp-/npm-37915/1365611189421-0.5750669490080327/package.json
+45 silly lockFile 1d201bb7-om-noppoMan-node-data-object-git git@github.com:noppoMan/node-data-object.git
+46 error Error: ENOENT, open '/var/folders/nU/nUyu734CFdCz4ZkSG5805E+++TI/-Tmp-/npm-37915/1365611189421-0.5750669490080327/package.json'
+47 error If you need help, you may report this log at:
+47 error     <http://github.com/isaacs/npm/issues>
+47 error or email it to:
+47 error     <npm-@googlegroups.com>
+48 error System Darwin 10.8.0
+49 error command "/Users/yuki/.nvm/v0.9.1/bin/node" "/Users/yuki/.nvm/v0.9.1/bin/npm" "install"
+50 error cwd /Users/yuki/www/miketokyo
+51 error node -v v0.9.1
+52 error npm -v 1.1.59
+53 error path /var/folders/nU/nUyu734CFdCz4ZkSG5805E+++TI/-Tmp-/npm-37915/1365611189421-0.5750669490080327/package.json
+54 error code ENOENT
+55 error errno 34
+56 verbose exit [ 34, true ]
